@@ -1,0 +1,578 @@
+@charset "UTF-8";
+
+#wrap {
+	width: 100%;
+	height: auto;
+	font-family: 'Malgun Gothic', AppleGothic, dotum;
+}
+
+#main {
+	width: 100%;
+	height: auto;
+}
+
+/* main 시작 */
+/* #main .nav 시작 */
+#main .section.sec0 {
+	height: auto
+}
+
+#main .nav {
+	width: 100%;
+	height: 370px;
+	position: relative;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+#main .nav .gallery {
+	width: 100%;
+	height: 370px;
+	border: 1px solid;
+	position: absolute;
+	color: #fff;
+}
+
+#main .gallery>ul>li {
+	width: 100%;
+	height: 370px;
+	float: left;
+	box-sizing: border-box;
+}
+
+#main .gallery>ul>li:nth-child(1) {
+	background: url(../img/gallery0.jpg) 50%
+}
+
+#main .gallery>ul>li:nth-child(2) {
+	background: url(../img/gallery1.jpg) 50%
+}
+
+#main .nav span.arrow {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	background: #551282;
+	top: 150px;
+	border-radius: 50%;
+	transition: all 0.3s;
+}
+
+#main .nav span.arrow:hover {
+	background: #fff;
+	cursor: pointer;
+	box-shadow: 1px 1px 10px #ccc;
+}
+
+#main .nav span.arrow.arrowLeft {
+	left: 50px;
+}
+
+#main .nav span.arrow.arrowRight {
+	right: 50px;
+}
+
+/* main .section 시작 */
+#main .section {
+	width: 100%;
+	height: auto;
+}
+
+#main .section .secContents {
+	width: 1015px;
+	height: auto;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+/* main .section.sec1 시작 */
+#main .section.sec1 {
+	padding: 30px 0;
+	/*MD추천부분 위아래 간격*/
+}
+
+#main .section.sec1 .con1 {
+	width: 100%;
+	height: 400px;
+}
+
+#main .section.sec1 .con1>ul>li {
+	width: 246px;
+	height: auto;
+	float: left;
+	border: 1px solid #eee;
+	box-sizing: border-box;
+	position: relative;
+}
+
+#main .section.sec1 .con1>ul>li.mLeft {
+	margin-left: 10px;
+}
+
+#main .section.sec1 .con1>ul>li img {
+	width: 100%;
+	height: auto;
+}
+
+#main .section.sec1 .con1>ul>li .topImg img {
+	width: 100%;
+	height: 325px;
+	background-color: #000;
+}
+
+#main .section.sec1 .con1>ul>li p {
+	width: 100%;
+	font-size: 14px;
+	color: #484848;
+	margin-left: 14px;
+}
+
+#main .section.sec1 .con1>ul>li p.txt {
+	height: 38px;
+	font-weight: bold;
+	position: relative;
+	line-height: 48px;
+}
+
+#main .section.sec1 .con1>ul>li p.price {
+	height: 37px;
+	line-height: 20px;
+}
+
+/* #main .section.sec2 시작 */
+#main .section.sec2 .secContents {
+	width: 1015px;
+	height: 480px;
+	margin: 0 auto;
+}
+
+/* #main .section.sec2 .con2Left 시작 */
+#main .section.sec2 .secContents .con2>ul>li.con2Left {
+	width: 502px;
+	height: 480px;
+	float: left;
+	margin-right: 10px;
+}
+
+#main .section.sec2 .secContents .con2>ul>li.con2Left .con2Gallery1 {
+	width: 100%;
+	height: 415px;
+	position: relative;
+	overflow: hidden;
+	background: #000;
+}
+
+.con2>ul>li.con2Left .con2Gallery1>ul {
+	width: 2550px;
+}
+
+.con2>ul>li.con2Left .con2Gallery1>ul>li {
+	width: 502px;
+	height: 415px;
+	box-sizing: border-box;
+	float: left;
+}
+
+.con2>ul>li.con2Left .con2Gallery1>ul>li:nth-child(1) {
+	background: url(../img/event0.jpg) no-repeat 50%;
+	background-size: cover;
+}
+
+.con2>ul>li.con2Left .con2Gallery1>span.cLArrow {
+	display: block;
+	width: 30px;
+	height: 30px;
+	background: #551282;
+	position: absolute;
+	top: 192px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.con2>ul>li.con2Left .con2Gallery1>span.cLArrow.c1Left {
+	left: 20px;
+}
+
+.con2>ul>li.con2Left .con2Gallery1>span.cLArrow.c1Right {
+	right: 20px;
+}
+
+/* #main .section.sec2 .con2Right 시작 */
+#main .section.sec2 .secContents .con2>ul>li.con2Right {
+	width: 502px;
+	height: 480px;
+	float: right;
+}
+
+#main .section.sec2 .secContents .con2>ul>li.con2Right .topSub {
+	overflow: hidden;
+}
+
+#main .section.sec2 .secContents .con2>ul>li.con2Right .topSub h2 {
+	float: left;
+}
+
+#main .section.sec2 .secContents .con2>ul>li.con2Right .topSub h3 {
+	line-height: 50px;
+	color: #56297a;
+	float: right;
+}
+
+#main .section.sec2 .secContents .con2>ul>li.con2Right .con2Gallery2 {
+	width: 100%;
+	height: 415px;
+	position: relative;
+	overflow: hidden;
+}
+
+.con2>ul>li.con2Right .con2Gallery2>ul {
+	width: 2550px;
+}
+
+.con2>ul>li.con2Right .con2Gallery2>ul>li {
+	width: 502px;
+	height: 415px;
+	box-sizing: border-box;
+	float: left;
+}
+
+.con2>ul>li.con2Right .con2Gallery2>ul>li:nth-child(1) {
+	background: url(../img/newItem0.jpg) no-repeat 50%;
+	background-size: cover;
+}
+
+.con2>ul>li.con2Right .con2Gallery2>span.cLArrow {
+	display: block;
+	width: 30px;
+	height: 30px;
+	background: #551282;
+	position: absolute;
+	top: 192px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.con2>ul>li.con2Right .con2Gallery2>span.cLArrow.c1Left {
+	left: 20px;
+}
+
+.con2>ul>li.con2Right .con2Gallery2>span.cLArrow.c1Right {
+	right: 20px;
+}
+
+/* #main .section.sec3 시작 */
+#main .section.sec3 {
+	background-color: #f6f7f7;
+	margin: 30px 0;
+	width: 100%;
+	height: 260px;
+}
+
+.sec3 .secContents .con3>ul>li {
+	float: left;
+	box-sizing: border-box;
+	cursor: pointer;
+	border-right: 1px solid #d4d4d4;
+}
+
+.sec3 .secContents .con3>ul>li:nth-child(1) {
+	width: 502px;
+	height: 180px;
+	margin-top: 40px;
+	background: url(../img/banner0.jpg);
+}
+
+.sec3 .secContents .con3>ul>li:nth-child(2) {
+	width: 161px;
+	height: 180px;
+	margin: 40px 10px;
+	background: url(../img/banner1.jpg);
+}
+
+.sec3 .secContents .con3>ul>li:nth-child(3) {
+	width: 161px;
+	height: 180px;
+	margin: 40px 0px;
+	background: url(../img/banner2.jpg);
+}
+
+.sec3 .secContents .con3>ul>li:nth-child(4) {
+	width: 161px;
+	height: 180px;
+	margin-top: 40px;
+	margin-left: 10px;
+	background: url(../img/banner3.jpg);
+}
+
+/* #main .section.sec4 시작 */
+#main .section.sec4 .secContents .title {
+	overflow: hidden;
+}
+
+#main .section.sec4 .secContents .title h2 {
+	float: left;
+}
+
+.sec4 .secContents .title span.line {
+	width: 1px;
+	height: 15px;
+	background-color: #551282;
+	display: block;
+	float: left;
+	margin: 25px 10px;
+}
+
+.sec4 .secContents .title a {
+	display: block;
+	width: 150px;
+	line-height: 15px;
+	float: left;
+	color: #512772;
+	font-weight: bold;
+	margin-top: 25px;
+	text-decoration: underline;
+}
+
+.sec4 .secContents .con4 {
+	overflow: hidden;
+	height: auto;
+}
+
+.con4 ul>li .con4Gallery {
+	height: 340px;
+	float: left;
+	box-sizing: border-box;
+	text-align: center;
+	line-height: 300px;
+	position: relative;
+	margin: 0 auto;
+}
+
+.con4 ul>li .con4Gallery.galleryLeft {
+	width: 760px;
+	height: 340px;
+	border: 1px solid #eee;
+	position: relative;
+	overflow: hidden;
+}
+
+.con4Gallery.galleryLeft>ul {
+	width: 800%;
+	height: 340px;
+	overflow: hidden;
+	position: relative;
+}
+
+.con4Gallery.galleryLeft>ul>li {
+	width: 760px;
+	height: 340px;
+	float: left;
+	overflow: hidden;
+}
+
+.con4Gallery.galleryLeft>ul>li:nth-child(1) {
+	background: url(../img/recipeFood0.jpg);
+}
+
+.con4Gallery.galleryLeft>ul>li:nth-child(2) {
+	background: url(../img/recipeFood1.jpg);
+}
+
+/***********여기부터 막힘**************/
+.con4 ul>li .con4Gallery.galleryRight {
+	width: 255px;
+	height: 340px;
+	border: 1px solid #eee;
+	float: right;
+	position: relative;
+	overflow: hidden;
+}
+
+.con4Gallery.galleryRight span.recipeLine {
+	width: 240px;
+	height: 1px;
+	position: absolute;
+	display: block;
+	z-index: 2;
+	background: #ddd;
+}
+
+/***********여기까지 막힘**************/
+
+/* #main .section.sec5 시작 */
+#main .section.sec5 {
+	width: 100%;
+	height: 640px;
+	background-color: #f6f7f7;
+	margin: 40px 0;
+}
+
+.sec5 .secContents h2 {
+	margin-top: 30px;
+}
+
+.con5>ul>li {
+	width: 331px;
+	height: 510px;
+	float: left;
+	box-sizing: border-box;
+	border: 1px solid #eee;
+	background: #fff;
+}
+
+.con5>ul>li:nth-child(2) {
+	margin: 0 10.5px;
+}
+
+.con5>ul>li img.sec5Img {
+	width: 100%;
+	height: auto;
+}
+
+.con5>ul>li p {
+	width: 100%;
+	font-size: 14px;
+	color: #484848;
+	margin-left: 14px;
+}
+
+.con5>ul>li p.txt {
+	height: 38px;
+	font-weight: bold;
+	position: relative;
+	line-height: 48px;
+}
+
+.con5>ul>li p.price {
+	height: 37px;
+	line-height: 20px;
+}
+
+/* #main .section.sec6 시작 */
+#main .section.sec6 {
+	margin: 30px 0;
+}
+
+#main .section.sec6 .secContents .title {
+	overflow: hidden;
+}
+
+#main .section.sec6 .secContents .title h2 {
+	float: left;
+}
+
+.sec6 .secContents .title span.line {
+	width: 2px;
+	height: 15px;
+	background-color: #551282;
+	display: block;
+	float: left;
+	margin: 25px 10px;
+}
+
+.sec6 .secContents .title p {
+	display: block;
+	width: 150px;
+	line-height: 15px;
+	float: left;
+	color: #aaa;
+	font-size: 15px;
+	margin-top: 25px;
+}
+
+.sec6 .secContents .con6>ul>li {
+	width: 246px;
+	height: 160px;
+	border: 1px solid #eee;
+	float: left;
+	box-sizing: border-box;
+	margin-bottom: 10px;
+}
+
+.sec6 .secContents .con6>ul>li img {
+	width: 100%;
+	height: 100%;
+}
+
+.sec6 .secContents .con6>ul>li.lm {
+	margin-left: 10px;
+}
+
+#main .section.sec7 {
+	margin: 30px 0;
+}
+
+#main .section.sec7 .secContents {
+	height: 200px;
+	margin: 0 auto;
+}
+
+.sec7 .secContents .con7 {
+	height: 150px;
+	overflow: hidden;
+}
+
+.sec7 .secContents .con7>ul {
+	width: 800%;
+	height: 150px;
+	overflow: hidden;
+	position: relative;
+	animation-name: insta;
+	animation-duration: 200s;
+	animation-iteration-count: infinite;
+}
+
+.sec7 .secContents .con7>ul>li {
+	width: 100%;
+	height: 150px;
+	float: left;
+	box-sizing: border-box;
+}
+
+.sec7 .secContents .con7>ul>li:nth-child(1) {
+	background: url(../img/insta1.jpg);
+}
+
+.sec7 .secContents .con7>ul>li:nth-child(2) {
+	background: url(../img/insta2.jpg);
+}
+
+.sec7 .secContents .con7>ul>li:nth-child(3) {
+	background: url(../img/insta3.jpg);
+}
+
+.sec7 .secContents .con7>ul>li:nth-child(4) {
+	background: url(../img/insta4.jpg);
+}
+
+.sec7 .secContents .con7>ul>li:nth-child(5) {
+	background: url(../img/insta5.jpg);
+}
+
+.sec7 .secContents .con7>ul>li:nth-child(6) {
+	background: url(../img/insta6.jpg);
+}
+
+.sec7 .secContents .con7>ul>li:nth-child(7) {
+	background: url(../img/insta7.jpg);
+}
+
+@keyframes insta{
+    0%{
+        left: 0;
+    }
+    
+    20%{
+        left: -200%;
+    }
+    40%{
+        left: -400%;
+    }
+    60%{
+        left: -600%;
+    }
+    80%{
+        left: -800%;
+    }
+    
+}

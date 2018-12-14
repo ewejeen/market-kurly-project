@@ -1,0 +1,249 @@
+@charset "UTF-8";
+
+#wrap {
+	width: 100%;
+	height: auto;
+	font-family: 'Malgun Gothic', AppleGothic, dotum;
+}
+
+#main {
+	width: 100%;
+	height: auto;
+	position: relative;
+	top: 10px;
+}
+
+/* form 시작 */
+#main .join {
+	width: 1015px;
+	margin: 0 auto;
+	box-sizing: border-box;
+	position: relative;
+}
+
+.join .mainGnb {
+	position: relative;
+	left: 890px;
+	font-size: 13px;
+}
+
+.join h1.title {
+	line-height: 150px;
+	text-align: center;
+	color: #64337d;
+	display: block;
+	font-size: 40px;
+}
+
+.join table {
+	width: 100%;
+	margin-top: 40px;
+	position: relative;
+}
+
+table, tr, th, td {
+	border: 0;
+	border-collapse: collapse;
+}
+
+td.left {
+	width: 15%;
+	text-indent: 20px;
+	font-weight: bold;
+	color: #4c4c4c;
+}
+
+td.right {
+	width: 85%;
+	border-bottom: 1px solid #e8e8e8;
+}
+
+td.right.sec1 {
+	border-bottom: 0;
+}
+
+td {
+	line-height: 60px;
+	font-size: 13px;
+	color: #000;
+}
+
+.join table tr.one {
+	border-bottom: 2px solid #6a3664;
+}
+
+.join table tr.bd {
+	border-bottom: 1px solid #e8e8e8;
+}
+
+.join table tr span#pwGuide {
+	color: #ff0000;
+}
+
+.join table tr.one td.left {
+	font-size: 19px;
+	font-weight: bold;
+	text-indent: 0px;
+	color: #514859;
+}
+
+.join table tr.one td.right {
+	text-align: right;
+}
+
+.join table tr.email {
+	border-bottom: 1px solid #e8e8e8;
+}
+
+.join input[type=text], input[type=password] {
+	width: 140px;
+	height: 40px;
+	text-indent: 10px;
+	margin: 10px 5px;
+	font-size: 13px;
+}
+
+.join .table1 input[type=button] {
+	width: 150px;
+	height: 45px;
+	border: 1px solid #56297a;
+	line-height: 45px;
+	background-color: #795b8f;
+	color: #fff;
+	font-size: 13px;
+	margin: 10px 0;
+}
+
+.join .table1 input[type=button]:hover {
+	cursor: pointer;
+	background-color: #56297a;
+}
+
+tr.one td.left span {
+	font-size: 12px;
+}
+
+tr.phone td.right .userPhone {
+	width: 75px;
+	margin-right: 10px;
+	margin-left: 5px;
+}
+
+tr.phone td.right .userPhone.one {
+	margin-left: 5px;
+}
+
+tr.phone td.right .userPhone.two {
+	margin-left: 5px;
+}
+
+tr.phone td.right .userPhone.three {
+	margin: 0 5px;
+}
+
+tr.email td.right input[type=text] {
+	width: 200px;
+}
+
+/************************************/
+tr.one.sec2 td.left.title {
+	position margin-top: 10px;
+}
+/***********************************/
+input[type='radio'] {
+	margin-right: 10px;
+	margin-left: 20px;
+}
+
+input[type='radio']:nth-child(1) {
+	margin-left: 0;
+}
+
+input[type='radio']:after {
+	width: 15px;
+	height: 15px;
+	border-radius: 13px;
+	position: relative;
+	background-color: #fff;
+	box-shadow: 1px 1px 2px #aaa;
+	content: '';
+	display: inline-block;
+}
+
+input[type='radio']:checked:after {
+	width: 6px;
+	height: 6px;
+	border-radius: 15px;
+	position: relative;
+	background-color: #fff;
+	content: '';
+	display: inline-block;
+	border: 5px solid #512772;
+}
+
+.table2 tr td.right {
+	text-indent: 10px;
+}
+
+.table2 tr td.right input[type=text] {
+	width: 40px;
+	margin-left: 0;
+}
+
+.table2 tr td.right input[type=text]:nth-child(1) {
+	width: 70px;
+}
+/****************table2끝*************/
+.agree {
+	border-bottom: 1px solid #dddfe1;
+	margin-bottom: 80px;
+}
+
+.agree ul {
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.agree ul>li {
+	width: 100%;
+	margin-left: 20px;
+	line-height: 30px;
+	font-size: 14px;
+}
+
+.agree ul>li span {
+	color: #949296;
+}
+
+.agree ul>li a {
+	color: #512772;
+}
+
+.agree ul>li:nth-child(1) {
+	margin-left: 0;
+	margin-bottom: 10px;
+	font-size: 17px;
+	font-weight: bold;
+}
+
+.agree ul>li:nth-child(4) {
+	margin-bottom: 20px;
+}
+
+.submit {
+	width: 200px;
+	line-height: 50px;
+	background-color: #512772;
+	margin: 0 auto;
+	cursor: pointer;
+}
+
+.submit input[type=button] {
+	width: 100%;
+	height: 50px;
+	background-color: #512772;
+	color: #fff;
+	font-size: 13px;
+	border: 0;
+	cursor: pointer;
+}

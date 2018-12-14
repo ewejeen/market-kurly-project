@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+    <!-- mysql -->
+    
+    <Resource 
+    	name="jdbc/mysqlDB"
+    	auth="Container"
+    	username="root"
+    	password="1111"
+    	type="javax.sql.DataSource"
+    	driverClassName="com.mysql.cj.jdbc.Driver"
+    	url="jdbc:mysql://localhost:3306/kurly_kyj?serverTimezone=UTC"
+    	logintimeout="100"
+    	maxActive="500"
+    	maxIdle="100" />   
+     
+    <!-- 
+    <Resource
+      	name="jdbc/OracleDB"
+      	auth="Container"
+      	type="javax.sql.DataSource"
+      	username="system"
+      	password="1111"
+      	driverClassName="oracle.jdbc.driver.OracleDriver"
+      	url="jdbc:oracle:thin:@localhost:1521:orcl"
+      	maxActive="500"
+      	maxIdle="100" />
+     -->
+</Context>
